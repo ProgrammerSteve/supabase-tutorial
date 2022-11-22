@@ -28,7 +28,6 @@ const Create = () => {
       setFormError('Please Fill in all the fields correctly')
     }
     if(data){
-      console.log(data)
       setFormError(null)
       navigate('/')
     }
